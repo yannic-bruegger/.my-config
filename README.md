@@ -18,7 +18,7 @@ You should have [git](https://git-scm.com/) installed in order to clone the repo
 
 ### Arch Linux / Manjaro
 ```sh
-git clone <git-url> ~/.my-config
+git clone https://github.com/yannic-bruegger/.my-config.git ~/.my-config
 cd  ~/.my-config/arch
 chmod +x install.sh install-code-extensions.sh
 ./setup.sh
