@@ -20,6 +20,6 @@ You should have [git](https://git-scm.com/) installed in order to clone the repo
 ```sh
 git clone https://github.com/yannic-bruegger/.my-config.git ~/.my-config
 cd  ~/.my-config/arch
-chmod +x install.sh install-code-extensions.sh
+chmod +x setup.sh install-code-extensions.sh
 ./setup.sh
 ```
