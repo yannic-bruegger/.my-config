@@ -1,8 +1,12 @@
-source ~/.zshrc
-
+pamac update --no-confirm
+sudo rm /etc/pamac.conf
+sudo ln -sf ~/.my-config/config/pamac.conf /etc/pamac.conf
 pamac install $(cat software) --no-confirm
 
 # oh-my-zsh
+source ~/.zshrc
+sudo rm -rf $ZSH_CUSTOM/plugins/zsh-autosuggestions
+sudo rm -rf $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 rm ~/.zshrc
