@@ -35,6 +35,11 @@ ln -sf ~/.my-config/config/code.json ~/.config/Code/User/settings.json
 rm ~/.config/Stretchly/config.json
 ln -sf ~/.my-config/config/stretchly.json ~/.config/Stretchly/config.json
 
+# firefox
+mv ~/.mozilla/firefox/profiles.ini ~/.mozilla/firefox/profiles.ini-backup 
+ln -sf ~/.my-config/config/firefox-profiles.ini ~/.mozilla/firefox/profiles.ini
+mkdir ~/.mozilla/firefox/yannic.dev-edition-default
+ln -sf ~/.my-config/config/firefox.js ~/.mozilla/firefox/yannic.dev-edition-default/user.js
 
 # Additional changes
 mkdir ~/development
