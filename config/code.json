@@ -1,7 +1,7 @@
 {
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1.5,
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Blueberry dark theme",
@@ -9,7 +9,7 @@
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "editor.smoothScrolling": true,
-    "editor.cursorSmoothCaretAnimation": false,
+    "editor.cursorSmoothCaretAnimation": true,
     "editor.mouseWheelZoom": true,
     "editor.fontFamily": "'Cascadia Code PL', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
